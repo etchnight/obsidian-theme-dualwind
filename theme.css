@@ -52,22 +52,24 @@ svg * {
 /*标题点标识*/
 /* 需要配合root中标题符号 */
 
-.cm-contentContainer .cm-header-1::after {
+.cm-contentContainer .cm-header-1:not(.cm-formatting)::after {
 	background: var(--h1-r-graphic);
 }
-.cm-contentContainer .cm-header-2::after {
+.cm-contentContainer .cm-header-2:not(.cm-formatting)::after {
 	background: var(--h2-r-graphic);
 }
-.cm-contentContainer .cm-header-3::after {
+.cm-contentContainer .cm-header-3:not(.cm-formatting)::after {
 	background: var(--h3-r-graphic);
 }
-.cm-contentContainer .cm-header-4::after {
+.cm-contentContainer .cm-header-4:not(.cm-formatting)::after {
+
 	background: var(--h4-r-graphic);
 }
-.cm-contentContainer .cm-header-5::after {
+.cm-contentContainer .cm-header-5:not(.cm-formatting)::after {
+
 	background: var(--h5-r-graphic);
 }
-.cm-contentContainer .cm-header-6::after {
+.cm-contentContainer .cm-header-6:not(.cm-formatting)::after {
 	background: var(--h6-r-graphic);
 }
 .cm-contentContainer .cm-header:not(:empty)::after {
