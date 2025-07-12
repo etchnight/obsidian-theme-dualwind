@@ -83,5 +83,19 @@ svg * {
 	background-size: 100% 100%;
 }
 
-/*搜索框增高*/
+/*搜索框增高(input限制无法实现)*/
 
+
+/*突出显示列表前不应该出现的空格（缩进不符合规范）*/
+.cm-indent-spacing {
+  background-color: rgba(255, 0, 0, 0.2);
+  border-bottom: 1px dotted #ff0000;
+}
+
+
+
+/*编辑器边框，调试用
+.cm-content{
+	border: 1px solid #18a1e6;
+}
+*/
